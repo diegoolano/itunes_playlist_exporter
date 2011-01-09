@@ -1,0 +1,15 @@
+author: Diego Garcia-Olano
+webpage: diegoolano.com
+github/diegoolano
+
+system: Mac OS X
+dependencies:  appscript which can be downloaded here http://appscript.sourceforge.net/py-appscript/install.html 
+			 or installed via commandline "sudo easy_install appscript"
+
+get_playlist_and_make_tar.py is a simple utility to make a tarfile out of an existing playlist from your iTunes Library.
+
+sample usage:  python get_playlist_and_make_tar.py playlistname tarfilename
+	where playlistname is the name of a playlist exactly as it appears from within your iTunes Library 
+	and tarfilename will be the name the tar is saved as.  if no tarfilename is given, the program will use the playlistname as the default name.
+
+This utility was made in an hour to help solve a common use case I have so it is definitely not terribly robust and there is quite a lot of improvements and additions that could be made.
